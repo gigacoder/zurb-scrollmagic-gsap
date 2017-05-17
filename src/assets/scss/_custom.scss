@@ -1,0 +1,124 @@
+
+/*---*/
+body{
+	background: url('../img/main-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+ 	background-size: cover;
+}
+.row{
+	background: rgba(255,255,255,1);
+}
+.callout{
+	border: 0px solid transparent;
+}
+.hyapps-orange-text{
+	color: $secondary-color;
+}
+.hyapps-padding-large{
+	padding: 80px 0px;
+}
+.hyapps-grey-section{
+	background: #efefef;
+}
+.hyapps-menu-bar{
+	a{
+	color: #fefefe;
+	}
+	a:hover{
+	color: #ff9933;
+	}
+}
+.button.hollow:hover, .button.hollow:focus {
+    border-color: #ff9933;
+    color: #ff9933;
+}
+.hyapps-main-bg{
+	background: transparent;
+ 	height: 100vh;
+}
+.hyapps-section{
+	height: 100vh;
+	width: 100%;
+}
+.hyapps-main-bg .row{
+	background: rgba(255,255,255,.5);
+}
+.hyapps-home-heading{
+	margin-top: 30vh !important;
+} 
+.hyapps-nested-thumbnails .column{
+	padding: 0px !important;
+	overflow: hidden;
+	img{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);    
+    transition: all 1s ease-out;
+    display: block;
+    overflow: hidden;
+	}
+	img:hover{
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+       -webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+     transform:scale(1.2);
+     overflow: hidden;
+	}
+}
+footer{
+	height: auto;
+	background: #000000;
+	padding: 40px 0;
+	a{
+		color: #ffffff;
+		display: block;
+		padding: 10px 0;
+	}
+	a:hover{
+		color: #ff9933;
+	}
+	h4{
+		color: #ff9933;
+	}
+	.row{
+		background: #000000 !important;
+		color: #ffffff !important;
+	}
+}
+.hyapps-social-media{
+	 img{
+    height: 30px;
+    width: 30px;
+    background: #ffffff;
+    margin-right: 20px;
+ 	}
+ 	img:hover{
+ 		background: #ff9933;
+ 	}
+ 	a{
+ 		display: inline;
+ 	}
+ }	
+.hyapps-footer-icons img{
+    height: 15px;
+    width: 15px;
+    background: #ffffff;
+    margin-right: 20px;
+ }
+
+/*media queries*/
+@media print, screen and (min-width: 40em){
+	h1{
+		font-size:  3rem;
+	}
+	h2 {
+    font-size: 2.5rem;
+	}
+	h5{
+		font-size: 1.25rem;
+	}
+}
