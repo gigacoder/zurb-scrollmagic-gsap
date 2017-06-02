@@ -74,34 +74,6 @@ var slideParallaxScene = new ScrollMagic.Scene({
 })
 .setTween(bikeparallax)
 .addTo(controller);
-
-
-
-
-
-// smoothScroll.init({
-//     // Selectors
-//     selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
-//     selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
-
-//     // Speed & Easing
-//     speed: 1500, // Integer. How fast to complete the scroll in milliseconds
-//     offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
-//     easing: 'easeInOutQuad', // Easing pattern to use
-
-//     // Custom easing patterns.
-//     // Must be an object with the easing name as the key
-//     // Each pattern must be a function, with `time` as the argument, that returns the pattern
-//     easingPatterns: {
-//         myCustomEasingPattern: function (time) {
-//             return time * (2 - time);
-//         }
-//     }
-
-//     // Callback API
-//     before: function (anchor, toggle) {}, // Function to run before scrolling starts
-//     after: function (anchor, toggle) {} // Function to run after scrolling completes
-// });
 });
 
 
